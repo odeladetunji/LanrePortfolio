@@ -151,7 +151,7 @@
   margin-left: 20px;
   padding-top: 30px;
   position: relative;
-  left: 46%;
+  left: 42%;
   color: #001d42;
 }
 
@@ -168,11 +168,12 @@
   padding-top: 50px;
   margin-bottom: 0px;
 }
+
 .tray div {
   width: 80%;
   margin-left: 10%;
   background-color: white;
-  margin-top: 100px;
+  margin-top: 50px;
   border: 1px solid #eeeeee;
   border-radius: 5px;
   cursor: pointer;
@@ -183,7 +184,7 @@
 .tray div p {
   font-size: 25px;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   text-align: center;
   font-weight: bold;
   font-family: verdana;
@@ -389,7 +390,7 @@
 		}
 
 		.banner div h1 {
-			font-size: 30px;
+			font-size: 20px;
 			padding-top: 200px;
 		}
 
@@ -409,5 +410,78 @@
 
 		.linkedIn {
 			 width: 30%;
+		}
+
+		.copyright {
+		  font-size: 12px;
+		}
+
+		.footer_headings {
+			 font-size: 13px !important;
+		}
+
+		.footer_Top_Logo .forLogo {
+		  width: 60%;
+		  margin-left: 20%;
+		}
+
+		.tray div p {
+		  font-size: 17px;
+		}
+
+		.services i {
+		  font-size: 35px;
+		  margin-left: 20px;
+		  padding-top: 30px;
+		  position: relative;
+		  left: 45%;
+		  color: #001d42;
+		}
+
+		.tray div {
+		  width: 90%;
+		  margin-left: 5%;
+		  background-color: white;
+		  margin-top: 30px;
+		  cursor: pointer;
+
+		}
+
+		.banner .InnerDiv {
+		   width: 60%;
+		   height: 30px !important;
+		}
+
+		.banner div h3 {
+			 font-size: 18px;
+		}
+
+		.service_header h1 {
+			padding-top: 25px;
+		  font-size: 20px;
+		}
+
+		.aboutUs h3 {
+		  padding-top: 5px;
+		  font-weight: bold;
+			font-size: 20px;
+		  text-align: center;
+		  font-family: verdana;
+		}
+
+		.mission h3 {
+		  font-weight: bold;
+			font-size: 20px;
+		  margin-top: 5px;
+			margin-bottom: 25px;
+		}
+
+		.mission {
+			padding: 20px;
+			text-align: center;
+		}
+
+		.service_header h1{
+			margin-top: 0px;
 		}
 }
