@@ -1,0 +1,24 @@
+* {
+	margin: 0px;
+	padding: 0px;
+  font-family: Geneva;
+  border: border-box;
+}
+
+.banner {
+  max-width: 100%;
+  z-index: 1;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.banner ul {
+  width: 400%;
+  margin-right: -300%;
+  z-index: 0;
+}
+.banner ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0px;
+  width: 100%;
+}
