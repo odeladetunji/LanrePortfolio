@@ -22,3 +22,67 @@
   padding: 0px;
   width: 100%;
 }
+
+.services {
+   background-color: #001d42;
+   margin-top: 0px;
+}
+
+.service_header {
+  background-color: #001d42;
+}
+
+.service_header h1 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-family: verdana;
+  font-weight: bold;
+  padding-top: 50px;
+  margin-bottom: 0px;
+}
+.tray div {
+  width: 80%;
+  margin-left: 10%;
+  background-color: white;
+  margin-top: 100px;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-bottom: 30px;
+}
+
+.tray div p {
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-family: verdana;
+}
+
+.tray div i {
+    font-weight: 40px;
+    margin: auto;
+    color: default;
+}
+
+.tray div ul {
+   margin: auto;
+}
+
+.tray div ul li {
+  text-align: center;
+  padding: 10px;
+  list-style-type: none;
+  display: block;
+}
+
+.tray div ul li:hover {
+   border-bottom: 1px solid green;
+}
+
+.footer {
+   padding-top: 100px;
+
+}
