@@ -1,7 +1,9 @@
-// import React, {Component} from 'react';
 import React, {Component} from 'react';
+// import React, {Component} from 'react';
 import Services from './services';
 import Banner from './banner';
+import About from './about';
+import Contact from './contact';
 // import {bindActionCreators} from 'redux';
 // import {connect} from 'react-redux';
 
@@ -16,7 +18,9 @@ export default () => {
        return(
            <div>
                <Banner />
+               <About />
                <Services />
+               <Contact />
            </div>
        );
 }

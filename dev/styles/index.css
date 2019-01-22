@@ -7,25 +7,139 @@
 
 .banner {
   max-width: 100%;
-  z-index: 1;
-  background-color: rgba(0,0,0,0.5);
 }
 
-.banner ul {
-  width: 400%;
-  margin-right: -300%;
-  z-index: 0;
+.banner div {
+    background-color: rgba(0,0,0,0.8);
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    padding-bottom: 100px;
 }
-.banner ul li {
+
+.banner div h1 {
+    color: white;
+    text-align: center;
+    color: white;
+    padding-top: 300px;
+    font-family: verdana;
+    font-weight: bold;
+}
+
+.banner div h3 {
+  color: white;
+  text-align: center;
+  color: white;
+  font-family: verdana;
+}
+
+.banner div ul {
+  margin-top: 15px;
+  height: 50px;
+  float: right;
+  margin-right: 10px;
+}
+
+.banner div ul li {
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid gold;
+  margin-left: 10px;
+  list-style-type: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.banner div ul li:hover {
+   color: gold;
+}
+
+.banner .InnerDiv {
+   /* background-color: transparent; */
+   width: 20%;
+   height: 40px;
+   top: 20px;
+   position: absolute;
+   left: 10px;
+   color: orange;
+   background-position: center;
+   background-size: cover;
+   background-color: white;
+
+}
+
+
+
+.banner div img {
+   position: absolute;
+   z-index: 3;
+   top: 40px;
+   left: 10px;
+}
+
+.banner .carousel {
+  width: 400%;
+  /* margin-left: -300%;  */
+  z-index: 0;
+  height: 700px;
+}
+.banner .carousel li {
   display: inline-block;
   list-style-type: none;
   padding: 0px;
-  width: 100%;
+  width: 25%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.aboutUs {
+  padding: 20px;
+}
+
+.aboutUs p {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.mission h3 {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-family: verdana;
+  margin-top: 50px;
+}
+
+.mission {
+  background-color: #465c76;
+  padding: 40px;
+}
+
+.mission p {
+  color: white;
+}
+
+.aboutUs h3 {
+  padding-top: 50px;
+  font-weight: bold;
+  text-align: center;
+  font-family: verdana;
 }
 
 .services {
    background-color: #001d42;
    margin-top: 0px;
+}
+
+.services i {
+  font-size: 50px;
+  margin-left: 20px;
+  padding-top: 30px;
+  position: relative;
+  left: 46%;
+  color: #001d42;
 }
 
 .service_header {
@@ -84,5 +198,129 @@
 
 .footer {
    padding-top: 100px;
+}
 
+.the_footer {
+   background-color: #001d42;
+}
+
+.foot {
+  background-color: rgba(0,0,0,.7);
+}
+
+.foot ul li {
+   color: white;
+   list-style-type: none;
+   padding: 7px;
+   text-align: center;
+   font-size: 13px;
+   cursor: pointer;
+}
+
+.foot ul li:hover {
+   border-bottom: 1px solid white;
+}
+
+.footer_headings {
+  color: orange !important;
+  font-size: 18px !important;
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 50px !important;
+}
+
+.copyright p {
+
+  font-weight: bold;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.copyright {
+  background-color: #001d42;
+}
+
+.social {
+   display: flex;
+   background-color: #001d42;
+   border-top: 1px solid white;
+}
+
+.facebook {
+  background-color: rgba(0,0,0,.7);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 45%;
+}
+
+.linkedIn {
+  width: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(0,0,0,.7);
+}
+
+.instagram {
+  width: 45%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(0,0,0,.7);
+}
+
+.facebook i {
+   background-color: white;
+   font-size: 60px;
+   float: right;
+   border-radius: 50%;
+   padding: 20px;
+   padding-left: 35px;
+   color: #001d42;
+   width: 100px;
+}
+
+.linkedIn i {
+  background-color: white;
+  font-size: 60px;
+  border-radius: 50%;
+  padding: 20px;
+  padding-left: 25px;
+  color: #001d42;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.instagram i {
+  background-color: white;
+  font-size: 60px;
+  border-radius: 50%;
+  padding: 20px;
+  padding-left: 25px;
+  color: #001d42;
+  width: 100px;
+}
+
+.footer_Top_Logo {
+  width: 100%;
+  background-color: #001d42;
+  height: 100px;
+}
+
+.footer_Top_Logo .forLogo {
+  width: 20%;
+  height: 90px;
+  border: 1px solid white;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  margin-left: 40%;
+}
+
+.footer_Top_Logo .coverForDiv {
+  width: 100%;
+  background-color: rgba(0,0,0,.7);
+  height: 100%;
+  padding-top: 20px;
 }

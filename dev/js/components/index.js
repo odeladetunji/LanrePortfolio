@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import header from './header';
-import footer from './footer';
+import Footer from './footer';
 import Home from './home';
 
 export default () => {
@@ -8,7 +8,7 @@ export default () => {
              <div>
                <header />
                <Home />
-               <footer />
+               <Footer />
              </div>
-         )
+         );
 }

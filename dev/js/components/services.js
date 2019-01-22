@@ -9,6 +9,7 @@ export default () => {
            <div className='row services'>
               <div className='col-md-4 tray'>
                  <div>
+                   <i className="fas fa-file-invoice-dollar"></i>
                    <p>Audit</p>
                    <ul>
                      <li>Pension Fund Audit</li>
@@ -19,6 +20,7 @@ export default () => {
               </div>
               <div className='col-md-4 tray'>
                  <div>
+                   <i className="fas fa-handshake"></i>
                    <p>Consulting</p>
                    <ul>
                      <li>Accounting</li>
@@ -29,6 +31,7 @@ export default () => {
               </div>
               <div className='col-md-4 tray'>
                  <div>
+                   <i className="fas fa-money-check-alt"></i>
                    <p>Financial Adversory</p>
                    <ul>
                      <li>Aquisition Mergers and Absorbtion</li>
@@ -42,6 +45,7 @@ export default () => {
            <div className='row services'>
               <div className='col-md-4 tray'>
                 <div>
+                  <i className="fas fa-mountain"></i>
                   <p>Risk</p>
                   <ul>
                     <li>Credit/risk analysis and controls</li>
@@ -54,6 +58,7 @@ export default () => {
               </div>
               <div className='col-md-4 tray'>
                 <div>
+                  <i className="fas fa-file-invoice-dollar"></i>
                   <p>Tax</p>
                   <ul>
                     <li>Tax Management</li>
@@ -63,6 +68,7 @@ export default () => {
               </div>
               <div className='col-md-4 tray'>
                    <div>
+                     <i className="fas fa-flag"></i>
                      <p>Government Adviser</p>
                      <ul>
                        <li>Recovery '/of/' withholding Tax '/(WHT)/' '/of/' Dividends and interest</li>
@@ -75,6 +81,7 @@ export default () => {
            <div className='row services'>
               <div className='col-md-4 tray'>
                   <div>
+                    <i className="fas fa-cog"></i>
                     <p>Business Solution</p>
                     <ul>
                       <li>Executive man power Solution</li>
