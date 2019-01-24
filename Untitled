@@ -1,0 +1,51 @@
+#first {
+ margin-right: -700;
+ margin-right: 10px;
+ -webkit-animation-name: courousel; /* Safari 4.0 - 8.0 */
+ -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+   animation-name: courousel;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes courousel {
+   0%   {margin-left: -100}
+   7.5% {margin-left: -200}
+   15% {margin-left: -300}
+   22.5% {margin-left: -400}
+   30% {margin-left: -500}
+   37.5% {margin-left: -600}
+   45% {margin-left: -700}
+   52.5% {margin-left: -600}
+   60% {margin-left: -500}
+   67.5% {margin-left: -400}
+   65% {margin-left: -300}
+   72.5% {margin-left: -200}
+   80% {margin-left: -100}
+   87.5% {margin-left: -200}
+   90% {margin-left: -300}
+   97.5% {margin-left: -400}
+   100% {margin-left: -500}
+}
+
+/* Standard syntax */
+@keyframes courousel {
+  0%   {margin-left: -100}
+  7.5% {margin-left: -200}
+  15% {margin-left: -300}
+  22.5% {margin-left: -400}
+  30% {margin-left: -500}
+  37.5% {margin-left: -600}
+  45% {margin-left: -700}
+  52.5% {margin-left: -600}
+  60% {margin-left: -500}
+  67.5% {margin-left: -400}
+  65% {margin-left: -300}
+  72.5% {margin-left: -200}
+  80% {margin-left: -100}
+  87.5% {margin-left: -200}
+  90% {margin-left: -300}
+  97.5% {margin-left: -400}
+  100% {margin-left: -500}
+}

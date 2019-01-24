@@ -25,7 +25,7 @@ export default () => {
                    <ul>
                      <li>Accounting</li>
                      <li>Share Registration</li>
-                     <li>Design and Installation '/of/' accounting system</li>
+                     <li>Design and Installation of accounting system</li>
                    </ul>
                  </div>
               </div>
@@ -62,7 +62,7 @@ export default () => {
                   <p>Tax</p>
                   <ul>
                     <li>Tax Management</li>
-                    <li>Recovery '/of/' withholding Tax '/(WHT)' '/of' dividends and Interest</li>
+                    <li>Recovery of withholding Tax (WHT) of dividends and Interest</li>
                   </ul>
                 </div>
               </div>
@@ -71,8 +71,8 @@ export default () => {
                      <i className="fas fa-flag"></i>
                      <p>Government Adviser</p>
                      <ul>
-                       <li>Recovery '/of/' withholding Tax '/(WHT)/' '/of/' Dividends and interest</li>
-                       <li>Recovery '/of' excess bank Charges Recovery and Interest Waiver</li>
+                       <li>Recovery of withholding Tax (WHT) of Dividends and interest</li>
+                       <li>Recovery of excess bank Charges Recovery and Interest Waiver</li>
                        <li></li>
                      </ul>
                    </div>
@@ -85,7 +85,7 @@ export default () => {
                     <p>Business Solution</p>
                     <ul>
                       <li>Executive man power Solution</li>
-                      <li>Provision '/of/' Technical Manpower</li>
+                      <li>Provision of Technical Manpower</li>
                       <li>Staff Trainings and Developments</li>
                       <li>Work and Routings Developments</li>
                     </ul>

@@ -8,7 +8,7 @@ export default () => {
        <div className='row'>
           <div className='col-md-6 aboutUs'>
                <h3>WHO WE ARE</h3>
-               <i class="fal fa-users"></i>
+               <i className="fal fa-users"></i>
                <p> { para + para1 } </p>
           </div>
           <div className='col-md-6 mission'>

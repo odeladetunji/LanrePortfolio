@@ -6,7 +6,7 @@ import ReactDOM from "react-dom";
 import { Provider } from 'react-redux';
 
 import App from './components';
-import allReducers from './reducers';
+// import allReducers from './reducers';
 import store from './store';
 require('../styles/index.css');
 

@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
 // import React, {Component} from 'react';
 import Services from './services';
-import Banner from './banner';
+import Banner from '../containers/banner';
 import About from './about';
 import Contact from './contact';
+import Carousel from './carousel';
 // import {bindActionCreators} from 'redux';
 // import {connect} from 'react-redux';
 
@@ -11,8 +12,9 @@ import Contact from './contact';
 //      Constructor(props){
 //          super(props);
 //      }
-//
 // }
+
+
 
 export default () => {
        return(

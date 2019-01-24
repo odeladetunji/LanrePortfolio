@@ -15,7 +15,7 @@ export default () => {
                        <ul>
                          <li className='footer_headings'>Tax</li>
                          <li>Tax Management</li>
-                         <li>Recovery '/of/' withholding Tax '/(WHT)' '/of' dividends and Interest</li>
+                         <li>Recovery of withholding Tax (WHT) of dividends and Interest</li>
                        </ul>
                      </div>
                   </div>
@@ -23,8 +23,8 @@ export default () => {
                      <div>
                        <ul>
                          <li className='footer_headings'>Government Adviser</li>
-                         <li>Recovery '/of/' withholding Tax '/(WHT)/' '/of/' Dividends and interest</li>
-                         <li>Recovery '/of' excess bank Charges Recovery and Interest Waiver</li>
+                         <li>Recovery of withholding Tax (WHT) of Dividends and interest</li>
+                         <li>Recovery of excess bank Charges Recovery and Interest Waiver</li>
                          <li></li>
                        </ul>
                      </div>
@@ -34,7 +34,7 @@ export default () => {
                       <ul>
                         <li className='footer_headings'>Business Solution</li>
                         <li>Executive man power Solution</li>
-                        <li>Provision '/of/' Technical Manpower</li>
+                        <li>Provision of Technical Manpower</li>
                         <li>Staff Trainings and Developments</li>
                         <li>Work and Routings Developments</li>
                       </ul>
@@ -44,7 +44,7 @@ export default () => {
                      <div>
                          <ul>
                            <li className='footer_headings'>Risk</li>
-                           <li>Credit/risk analysis and controls</li>
+                           <li>Credit risk analysis and controls</li>
                            <li>Investment analysis and appraisal</li>
                            <li>Cooperate Governnace</li>
                            <li>Production planning and controll</li>
@@ -71,7 +71,7 @@ export default () => {
                       <li className='footer_headings'>Consulting</li>
                       <li>Accounting</li>
                       <li>Share Registration</li>
-                      <li>Design and Installation '/of/' accounting system</li>
+                      <li>Design and Installation of accounting system</li>
                     </ul>
                  </div>
               </div>
@@ -88,13 +88,13 @@ export default () => {
             </div>
             <div className='social'>
                <div className='facebook'>
-                   <i class="fab fa-facebook-f"></i>
+                   <i className="fab fa-facebook-f"></i>
                </div>
                <div className='linkedIn'>
-                   <i class="fab fa-linkedin-in"></i>
+                   <i className="fab fa-linkedin-in"></i>
                </div>
                <div className='instagram'>
-                   <i class="fab fa-instagram"></i>
+                   <i className="fab fa-instagram"></i>
                </div>
             </div>
             <div className='copyright'>
