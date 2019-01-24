@@ -182,12 +182,13 @@
 }
 
 .tray div p {
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 30px;
   margin-bottom: 15px;
   text-align: center;
   font-weight: bold;
   font-family: verdana;
+	color: #b9723d;
 }
 
 .tray div i {
