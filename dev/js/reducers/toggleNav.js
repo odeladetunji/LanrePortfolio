@@ -5,14 +5,16 @@ export default (state = null, action) => {
         case 'show nav':
            return  Object.assign({}, state, {
                                               showNav: action.payload,
-                                              hideNav:  'off'
+                                              hideNav:  'off',
+                                              showBar: 'off'
                    });
                    break;
 
         case 'hide nav':
             return Object.assign({}, state, {
                                               showNav: 'off',
-                                              hideNav: action.payload
+                                              hideNav: action.payload,
+                                              showBar: 'on'
                    });
                    break;
      }

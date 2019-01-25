@@ -81,10 +81,6 @@
    background-color: white;
 }
 
-.bannerCover {
-
-}
-
 .banner div img {
    position: absolute;
    z-index: 3;
@@ -351,6 +347,14 @@
 	display: none !important;
 }
 
+#on {
+	display: block !important;
+}
+
+#off {
+	display: none !important;
+}
+
 @media only screen and (max-width: 768px) {
     .outer ul li {
 			  display: block !important;
@@ -363,7 +367,7 @@
 		.outer ul {
 			  display: none;
 				background-color: #001d42;
-				height: 500px !important;
+				height: 350px !important;
 				width: 80%;
 				margin-top: 0px !important;
 				margin-right: 0px !important;
@@ -484,5 +488,30 @@
 
 		.service_header h1{
 			margin-top: 0px;
+		}
+
+    .fa-window-close {
+		   position: absolute;
+			 top: 0px;
+			 left: 5px;
+			 font-size: 20px;
+			 width: 60px;
+			 border: none;
+		}
+
+		.outer {
+		  padding-bottom: 200px !important;
+		}
+
+		.scroll_to_about {
+
+		}
+
+		.scroll_to_services {
+
+		}
+
+		.scroll_to_contact {
+
 		}
 }
