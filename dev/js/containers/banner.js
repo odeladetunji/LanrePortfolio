@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
+import {Col, Row, Grid} from 'react-bootstrap';
 import toggleNav from '../actions/togglenav';
 import scroll from '../actions/scroll';
 
@@ -22,7 +23,7 @@ class Banner extends Component {
                  this.props.toggleNav('show nav')
              }}></i>
                <ul className={this.props.showNav}>
-                 <li onClick={ () => {this.scroll('sroll to services')}}>Services</li>
+                 <li onClick={ () => {this.props.scroll('scroll to services')}}>Services</li>
                  <li>Publications</li>
                  <li onClick={ () => {this.props.scroll('scroll to about')}}>About</li>
                  <li onClick={ () => {this.props.scroll('scroll to contacts')}}>Contacts</li>

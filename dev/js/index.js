@@ -4,10 +4,10 @@ import "core-js/modules/es7.array.includes";
 import React from 'react';
 import ReactDOM from "react-dom";
 import { Provider } from 'react-redux';
-
 import App from './components';
-// import allReducers from './reducers';
 import store from './store';
+
+require('../styles/bootstrap.min.css');
 require('../styles/index.css');
 
 ReactDOM.render(

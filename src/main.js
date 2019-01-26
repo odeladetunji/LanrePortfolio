@@ -1,4 +1,4 @@
-//require('babel-loader');
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "@babel/polyfill";
 import "core-js/modules/es6.promise";
 import "core-js/modules/es7.array.includes";

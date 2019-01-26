@@ -1,3 +1,4 @@
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -122,7 +123,8 @@
 }
 
 .mission {
-  background-color: #465c76;
+  background-color: #001d42;
+	/* #465c76; */
   padding: 40px;
 }
 
@@ -138,7 +140,7 @@
 }
 
 .services {
-   background-color: #001d42;
+   background-color: #ceddf1;
    margin-top: 0px;
 }
 
@@ -152,11 +154,11 @@
 }
 
 .service_header {
-  background-color: #001d42;
+  background-color: #ceddf1;
 }
 
 .service_header h1 {
-  color: white;
+  color: #001d42;
   font-size: 30px;
   text-align: center;
   font-family: verdana;
@@ -501,6 +503,10 @@
 
 		.outer {
 		  padding-bottom: 200px !important;
+		}
+
+		.social {
+		   border-top: none;
 		}
 
 		.scroll_to_about {
