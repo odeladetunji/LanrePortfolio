@@ -48,21 +48,21 @@
 }
 
 .banner div ul {
-  margin-top: 15px;
-  height: 50px;
-  float: right;
-  margin-right: 10px;
+	padding: 20px;
+	background-color: black;
+	width: 100%;
+	padding-bottom: 70px;
 }
 
 .banner div ul li {
   padding: 10px;
   color: white;
-  border-radius: 5px;
-  border: 1px solid gold;
-  margin-left: 10px;
+  border-bottom: 1px solid gold;
+  margin-left: 20px;
   list-style-type: none;
   display: inline-block;
   cursor: pointer;
+	float: right;
 }
 
 .banner div ul li:hover {
@@ -93,6 +93,10 @@
   width: 100%;
   z-index: 0;
   height: 700px;
+}
+
+.banner ul {
+
 }
 
 .banner .carousel li {
@@ -357,7 +361,332 @@
 	display: none !important;
 }
 
+.login_form {
+	width: 100%;
+	background-color: #001d42;
+	padding-top: 10px;
+	margin-left: 25%;
+	padding-bottom: 50px;
+}
+
+.container {
+   width: 100%;
+	 margin-bottom: 200px;
+}
+
+.login_form form {
+	width: 100%;
+	padding-top: 50px;
+}
+
+.login_form form p {
+	color: white;
+	text-align: center;
+	display: none;
+}
+
+.login_form label {
+	color: white;
+	text-align: center;
+	margin-left: 40%;
+}
+
+.login_form form input {
+	width: 90%;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	margin-left: 5%;
+	border: 1px solid black;
+}
+
+.login_form form button {
+	padding: 10px 15px;
+	margin-left: 5%;
+	background-color: green;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+.subheader p {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.subheader p span {
+	padding: 10px 40px;
+	color: #110033;
+	border-radius: 5px;
+	background-color: #eeeeee;
+}
+
+.createForm input {
+	 padding: 10px;
+	 border-radius: 5px;
+	 margin-bottom: 5px;
+	 width: 100%;
+	 border: none;
+	 /* border: 1px solid black; */
+	 cursor: pointer;
+}
+
+.createForm p {
+	color: black;
+	text-align: center;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.createForm ul li {
+	list-style-type: none;
+}
+
+.createForm span {
+	padding: 10px 30px;
+	border-radius: 5px;
+	background-color: skyblue;
+}
+
+.createForm i{
+  list-style-type: none;
+}
+
+.createForm {
+	 padding-left: 10px;
+	 padding-right: 10px;
+	 padding-top: 50px;
+}
+
+.createForm button {
+	background-color: green;
+	color: white;
+	padding: 10px 70px;
+	border: 1px solid orange;
+	/* float: right; */
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+
+.createForm button:hover {
+	background-color: lightgreen;
+	color: black;
+}
+.createForm textarea {
+	width: 100%;
+	height: 200px;
+  padding: 10px;
+	margin-bottom: 10px;
+	border: none;
+	border: 1px solid black;
+	border-top: none;
+}
+
+.create_publication {
+	margin-top: 150px;
+	background-color: #eff3f5
+}
+
+.editor {
+	margin-top: 10px;
+	border: 1px solid black;
+	padding: 10px;
+	background-color: #eeeeee;
+	border-bottom: none;
+}
+
+.editor ul li {
+	display: inline-block;
+	margin-left: 10px;
+	background-color: green;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#paragraph {
+	font-size: 18px;
+}
+
+#pubHeading {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px;
+}
+
+.floatingHeader ul li {
+    border-bottom: none !important;
+}
+
+.floatingHeader .leftSection {
+	  width: 25%;
+}
+
+.floatingHeader .rightSection {
+	  width: 75%;
+}
+
+
+.floatingHeader .rightSection .rowOne {
+	 display: flex;
+}
+
+.floatingHeader .rightSection .rowTwo {
+	 display: flex;
+}
+
+.floatingHeader .rightSection .rowThree {
+	 display: flex;
+}
+
+.rowOne .rightDiv, .rowTwo .rightDiv, .rowThree .rightDiv {
+	  width: 33.3%;
+}
+
+.rowOne .rightDiv ul li, .rowTwo .rightDiv ul li, .rowThree .rightDiv ul li {
+	  text-align: left;
+		font-size: 14px;
+		display: inline-block;
+		width: 100%;
+		padding: 2px;
+}
+
+.rowOne .rightDiv ul li:nth-child(1), .rowTwo .rightDiv ul li:nth-child(1), .rowThree .rightDiv ul li:nth-child(1) {
+	 font-size: 17px;
+	 color: orange;
+}
+
+.rowOne .rightDiv ul, .rowTwo .rightDiv ul, .rowThree .rightDiv ul {
+	  text-align: center;
+	  width: 100%;
+}
+
+.floatingHeader div {
+	  padding-bottom: 10px;
+}
+
+.floatingHeader .leftSection {
+	background-color: black;
+}
+
+.floatingHeader {
+	 display: flex;
+	 position: absolute;
+	 top: 85px;
+   visibility: hidden;
+	 width: 100%;
+	 left: 0px;
+}
+
+#ourServices:hover > .floatingHeader {
+	 visibility: visible;
+}
+
+.contactFloating {
+	 display: flex;
+	 position: absolute;
+	 top: 90px;
+	 padding-bottom: 0px !important;
+	 width: 100%;
+	 left: 0px;
+	 visibility: hidden;
+}
+
+#myContact:hover > .contactFloating {
+	visibility: visible;
+}
+
+.contactFloating .leftSection {
+	  width: 30%;
+		padding-bottom: 50px;
+}
+
+.contactFloating .rightSection {
+    width: 70;
+		padding-bottom: 50px;
+}
+
+.contactFloating .rightSection {
+	  display: flex;
+}
+
+.contactFloating .rightSection .theContact {
+	  width: 50%;
+}
+
+.contactFloating p {
+	color: white;
+	font-size: 14px;
+	width: 70%;
+}
+
+.contactFloating p:last-child {
+	color: yellow;
+}
+
+.contactFloating h5 {
+	color: orange;
+	font-size: 17px;
+}
+
+.contactFloating ul {
+	width: 100%;
+}
+
+.aboutFloating {
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 90px;
+	display: flex;
+	padding-bottom: 0px !important;
+	visibility: hidden;
+}
+
+.aboutFloating .leftSection {
+	  width: 25%;
+}
+
+.aboutFloating .rightSection {
+	  width: 75%;
+}
+
+.aboutFloating .rightSection {
+	display: flex;
+	width: 100%;
+}
+
+.aboutFloating .rightSection .segmentB {
+	width: 40%;
+}
+
+.aboutFloating .rightSection .segmentA {
+	width: 60%;
+}
+
+.aboutFloating .rightSection p {
+	color: white !important;
+	width: 90%;
+	font-size: 14px;
+}
+
+.aboutFloating h5 {
+	 font-size: 17px;
+}
+
+#aboutLanre:hover > .aboutFloating {
+	 visibility: visible;
+}
+
 @media only screen and (max-width: 768px) {
+		.editor ul li {
+        margin-top: 10px;
+		}
+
+	  .login_form {
+			margin-left: 0px;
+		}
     .outer ul li {
 			  display: block !important;
 				border: none !important;
