@@ -34,7 +34,7 @@
     color: white;
     text-align: center;
     color: white;
-    padding-top: 300px;
+    padding-top: 100px;
     font-family: verdana;
     font-weight: bold;
 		margin-top: 0px;
@@ -343,6 +343,37 @@
   background-color: rgba(0,0,0,.7);
   height: 100%;
   padding-top: 20px;
+}
+
+.mobile_nav {
+	background-color: black;
+	color: white;
+	position: absolute;
+	top: 75px;
+	left: 0px;
+	width: 100% !important;
+	overflow: scroll;
+	visibility: hidden;
+}
+
+.mobile_nav ul {
+	width: 100%;
+	border-bottom: 1px solid orange;
+	padding-bottom: 10px;
+}
+
+.mobile_nav ul li {
+	width:  100%;
+	padding: 2px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+
+.mobile_nav ul li:nth-child(1) {
+	 color: orange;
+	 font-size: 16px;
+	 font-weight: bold;
 }
 
 .on {
@@ -722,7 +753,7 @@
 		.banner .carousel {
 		  width: 100%;
 		  z-index: 0;
-		  height: 400px;
+		  height: 300px;
 		}
 
 		.banner div h1 {
@@ -849,4 +880,11 @@
 		.scroll_to_contact {
 
 		}
+}
+
+@media only screen and (max-width: 468px) {
+   .mobile_nav {
+		 visibility: visible;
+		 width: 100%;
+	 }
 }
