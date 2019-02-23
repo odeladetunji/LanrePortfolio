@@ -6,6 +6,7 @@ import toggleNav from '../actions/togglenav';
 import scroll from '../actions/scroll';
 import defaultContent from '../actions/defaultContent';
 import Banner from './banner';
+import MobileNav from '../containers/mobileHeader';
 import Footer from '../components/footer';
 
 class Publications extends Component {
@@ -134,6 +135,7 @@ class Publications extends Component {
     render(){
        return(
          <div>
+             <MobileNav />
              <Banner />
                 {this.defaultContent()}
              <Footer />

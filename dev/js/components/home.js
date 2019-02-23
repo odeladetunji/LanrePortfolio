@@ -5,7 +5,7 @@ import Banner from '../containers/banner';
 import About from './about';
 import Contact from './contact';
 import Carousel from './carousel';
-import MobileNav from './mobileHeader';
+import MobileNav from '../containers/mobileHeader';
 
 export default () => {
        return(

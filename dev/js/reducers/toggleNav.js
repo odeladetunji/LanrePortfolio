@@ -2,25 +2,41 @@ import React, {Component} from 'react';
 
 export default (state = null, action) => {
      switch(action.type){
-        case 'show nav':
-           return  Object.assign({}, state, {
-                                              showNav: action.payload,
-                                              hideNav:  'off',
-                                              showBar: 'off'
-                   });
-                   break;
+        case 'mobile_nav':
+           return Object.assign({}, state, {
+                                              showNav: action.payload
+           });
+           break;
 
-        case 'hide nav':
-            return Object.assign({}, state, {
-                                              showNav: 'off',
-                                              hideNav: action.payload,
-                                              showBar: 'on'
-                   });
-                   break;
+        case 'show contacts':
+           return Object.assign({}, state, {
+                                              showContacts: action.payload,
+                                              showServices: 'off',
+                                              showAbout: 'off'
+                  });
+                  break;
+
+        case 'show services':
+           return Object.assign({}, state, {
+                                              showContacts: 'off',
+                                              showServices: action.payload,
+                                              showAbout: 'off'
+                  });
+                  break;
+
+        case 'show about':
+           return Object.assign({}, state, {
+                                              showContacts: 'off',
+                                              showServices: 'off',
+                                              showAbout: action.payload
+                  });
+                  break;
      }
 
      return {
-         showNav: 'showNav',
-         hideNav: 'hideNav'
+         showNav: 'off',
+         showContacts: 'off',
+         showAbout: 'off',
+         showServices: 'off'
      };
 }

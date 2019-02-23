@@ -3,6 +3,7 @@ import { bindActionCreators } from 'redux';
 import {connect} from 'react-redux';
 import Footer from '../components/footer';
 import Banner from './banner';
+import MobileNav from '../containers/mobileHeader';
 import liveEdit from '../actions/liveEdit';
 import defaultContent from '../actions/defaultContent';
 import { Grid, Row, Col } from 'react-bootstrap';
@@ -240,6 +241,7 @@ class CreatePublication extends Component {
        return(
           <div>
               <Banner />
+              <MobileNav />
                   <Grid>
                      <Row className='theBlog'>
                         <Col xs={12} sm={12} md={12} lg={12}>

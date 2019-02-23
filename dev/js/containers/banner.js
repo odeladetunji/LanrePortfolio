@@ -10,12 +10,7 @@ import { BrowserRouter } from 'react-router-dom';
 class Banner extends Component {
     constructor(props){
        super(props);
-       // this.defaultContent = this.defaultContent.bind(this);
     }
-     // this.props.obj.name = 'tunji';
-    // componentDidMount(){
-    //    this.props.defaultContent('load publications');
-    // }
 
     goToPublications(){
        BrowserRouter.push('/publications');
@@ -30,9 +25,7 @@ class Banner extends Component {
        return(
          <div className="banner" style={ { backgroundImage: 'url(dev/public/images/pictures4.jpg)' }} >
            <div className='bannerCover outer'>
-             <i className={"fas fa-bars" + ' ' + this.props.showBar} onClick={ () => {
-                 this.props.toggleNav('show nav')
-             }}></i>
+            
                <ul className={this.props.showNav}>
                  <li onClick={ () => {this.props.scroll('scroll to services')}} id="ourServices">Services
                    <div className="floatingHeader">

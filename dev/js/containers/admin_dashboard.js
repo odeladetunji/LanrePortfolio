@@ -3,6 +3,7 @@ import { bindActionCreators } from 'redux';
 import {connect} from 'react-redux';
 import Footer from '../components/footer';
 import Banner from '../containers/banner';
+import MobileNav from '../containers/mobileHeader';
 import { Grid, Col, Row } from 'react-bootstrap';
 import defaultContent from '../reducers/admin';
 
@@ -30,6 +31,7 @@ class AdminDashBoard extends Component {
     return(
       <div>
         <Banner />
+        <MobileNav />
         <div className='subheader'>
            <p><span>Admin</span></p>
         </div>
