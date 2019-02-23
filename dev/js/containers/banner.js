@@ -7,6 +7,7 @@ import toggleNav from '../actions/togglenav';
 import Publications from './publications';
 import scroll from '../actions/scroll';
 import backgroundBannerImg from '../../public/images/pictures4.jpg';
+console.log(backgroundBannerImg);
 // import defaultContent from '../actions/defaultContent';
 
 class Banner extends Component {

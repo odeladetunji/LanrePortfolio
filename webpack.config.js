@@ -17,11 +17,7 @@ module.exports = {
     extensions: ['json', '.js', '.jsx', 'css']
   },
   module: {
-    // rules: [{
-    //   test: /\.jsx?$/,
-    //   exclude: /node_modules/,
-    //   loader: 'babel-loader'
-    // }]
+
     rules: [
              {
                 test: /\.jsx?$/,
@@ -34,24 +30,24 @@ module.exports = {
                loader: 'style-loader!css-loader'
              },
 
-             {
-                test: /\.(png|jpg|gif)$/i,
-                use: [
-                  {
-                    loader: 'url-loader',
-                    options: {
-                      limit: 8192
-                    }
-                  }
-                ]
-             },
+             // {
+             //    test: /\.(png|jpg|gif)$/i,
+             //    use: [
+             //      {
+             //        loader: 'url-loader',
+             //        options: {
+             //          limit: 8192
+             //        }
+             //      }
+             //    ]
+             // },
 
              {
                 test: /\.(png|jpg|gif)$/,
                 use: [
                   {
                     loader: 'file-loader',
-                    options: {}
+                    options: {name: '[path][name].[ext]?[hash]'}
                   }
                 ]
               }
