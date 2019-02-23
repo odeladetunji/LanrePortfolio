@@ -31,7 +31,7 @@
 }
 
 .outer {
-  padding-bottom: 319px !important;
+  padding-bottom: 150px !important;
 }
 
 .banner div h1 {
@@ -76,11 +76,13 @@
 .banner .InnerDiv {
    /* background-color: transparent; */
    width: 20%;
+	 margin-left: 40%;
+	 margin-top: 20px;
    height: 40px;
-   top: 20px;
-   position: absolute;
-   left: 10px;
-   color: orange;
+   /* top: 20px; */
+   /* position: absolute; */
+   /* left: 10px; */
+
    background-position: center;
    background-size: cover;
    background-color: white;
@@ -920,6 +922,7 @@
 
 		.banner .InnerDiv {
 		   width: 60%;
+			 margin-left: 20%;
 		   height: 30px !important;
 		}
 
