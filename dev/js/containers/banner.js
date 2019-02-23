@@ -6,6 +6,7 @@ import {Col, Row, Grid} from 'react-bootstrap';
 import toggleNav from '../actions/togglenav';
 import Publications from './publications';
 import scroll from '../actions/scroll';
+import backgroundBannerImg from '../../public/images/pictures4.jpg';
 // import defaultContent from '../actions/defaultContent';
 
 class Banner extends Component {
@@ -20,7 +21,7 @@ class Banner extends Component {
 
     render(){
        return(
-               <div className="banner" style={ { backgroundImage: 'url(dev/public/images/pictures4.jpg)' }} >
+               <div className="banner" style={ { backgroundImage: 'url(' + backgroundBannerImg + ')' }} >
                  <div className='bannerCover outer'>
                      <ul className={this.props.showNav} id="bigNav">
                        <li><Link to="/create_publications">Create Publication</Link></li>
