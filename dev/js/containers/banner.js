@@ -7,6 +7,7 @@ import toggleNav from '../actions/togglenav';
 import Publications from './publications';
 import scroll from '../actions/scroll';
 import backgroundBannerImg from '../../public/images/pictures4.jpg';
+import companylogo from '../../public/images/companylogo.png';
 console.log(backgroundBannerImg);
 // import defaultContent from '../actions/defaultContent';
 
@@ -158,7 +159,7 @@ class Banner extends Component {
                      </ul>
                      <h1>Lanre Abidakun & Co</h1>
                      <h3>(chartered accountants)</h3>
-                     <div id={this.props.showBar} className='bannerCover InnerDiv' style={ {backgroundImage: 'url(dev/public/images/companylogo.png)' }}>
+                     <div id={this.props.showBar} className='bannerCover InnerDiv' style={ {backgroundImage: 'url(' + companylogo + ')' }}>
 
                      </div>
                  </div>

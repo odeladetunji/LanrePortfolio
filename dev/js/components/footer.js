@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
+import companylogo from '../../public/images/companylogo.png';
 
 export default () => {
      return(
           <div>
             <div className='footer_Top_Logo'>
                 <div className='coverForDiv'>
-                  <div className='forLogo' style={{ backgroundImage: 'url(dev/public/images/companylogo.png)' }}>
+                  <div className='forLogo' style={{ backgroundImage: 'url(' + companylogo + ')' }}>
                   </div>
                 </div>
             </div>
