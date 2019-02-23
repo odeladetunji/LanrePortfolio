@@ -4,7 +4,7 @@ export default (state = null, action) => {
      switch(action.type){
         case 'mobile_nav':
            return Object.assign({}, state, {
-                                              showNav: action.payload
+                                              showMobileNav: action.payload
            });
            break;
 
@@ -34,7 +34,7 @@ export default (state = null, action) => {
      }
 
      return {
-         showNav: 'off',
+         showMobileNav: 'off',
          showContacts: 'off',
          showAbout: 'off',
          showServices: 'off'

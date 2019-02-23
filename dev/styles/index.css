@@ -55,7 +55,7 @@
 	padding: 20px;
 	background-color: black;
 	width: 100%;
-	padding-bottom: 70px;
+	/* padding-bottom: 70px; */
 }
 
 .banner div ul li {
@@ -804,6 +804,16 @@
 	 background-color: black;
 }
 
+#bigNav {
+	 position: fixed;
+	 top: 0px;
+	 z-index: 3;
+	 width: 100%;
+}
+
+
+
+
 @media only screen and (max-width: 768px) {
 		.editor ul li {
         margin-top: 10px;
@@ -959,6 +969,10 @@
 		  padding-bottom: 200px !important;
 		}
 
+    #bigNav ul li a {
+			 text-decoration: none;
+			 color: white;
+		}
 		.social {
 		   border-top: none;
 		}

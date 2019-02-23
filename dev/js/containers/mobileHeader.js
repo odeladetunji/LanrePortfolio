@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { bindActionCreators }from 'redux';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import toggleNav from '../actions/togglenav';
 
 class MobileNav extends Component {
@@ -13,13 +14,13 @@ class MobileNav extends Component {
       <div className="mobile">
         <div className="theFirstDiv">
           <i className={"fas fa-bars" + ' ' + this.props.showBar} onClick={ () => {
-              if(this.props.showNav == 'on')
+              if(this.props.showMobileNav == 'on')
               this.props.toggleNav({
                 type: 'mobile_nav',
                 payload: 'off'
               });
 
-              if(this.props.showNav == 'off')
+              if(this.props.showMobileNav == 'off')
               this.props.toggleNav({
                 type: 'mobile_nav',
                 payload: 'on'
@@ -27,7 +28,7 @@ class MobileNav extends Component {
 
           }}></i><p>LanreAbidakun & Co</p>
         </div>
-        <div className={"mobile_headers" + " " + this.props.showNav}>
+        <div className={"mobile_headers" + " " + this.props.showMobileNav}>
           <ul>
             <li className="nav_headers"
               onClick={ ()  => {
@@ -141,7 +142,9 @@ class MobileNav extends Component {
                   </p>
                 </div>
               </div>
-            <li className="nav_headers">PUBLICATIONS</li>
+            <li className="nav_headers"><Link to="/publications">PUBLICATIONS</Link></li>
+            <li className="nav_headers"><Link to="/create_publications">Create Publications</Link></li>
+            <li className="nav_headers"><Link to="/admin">STAFFS</Link></li>
           </ul>
         </div>
       </div>
@@ -151,7 +154,7 @@ class MobileNav extends Component {
 
 function mapStateToProps(state){
   return {
-    showNav: state.toggleNav.showNav,
+    showMobileNav: state.toggleNav.showMobileNav,
     showContacts: state.toggleNav.showContacts,
     showServices: state.toggleNav.showServices,
     showAbout: state.toggleNav.showAbout
