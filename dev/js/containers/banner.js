@@ -26,6 +26,7 @@ class Banner extends Component {
                <div className="banner" style={ { backgroundImage: 'url(' + backgroundBannerImg + ')' }} >
                  <div className='bannerCover outer'>
                      <ul className={this.props.showNav} id="bigNav">
+                       <li><Link to="/">HOME</Link></li>
                        <li><Link to="/create_publications">Create Publication</Link></li>
                        <li><Link to="/admin">Staffs</Link></li>
                        <li id="ourServices">Services

@@ -145,6 +145,7 @@ class MobileNav extends Component {
             <li className="nav_headers"><Link to="/publications">PUBLICATIONS</Link></li>
             <li className="nav_headers"><Link to="/create_publications">Create Publications</Link></li>
             <li className="nav_headers"><Link to="/admin">STAFFS</Link></li>
+            <li className="nav_headers"><Link to="/">HOME</Link></li>
           </ul>
         </div>
       </div>
