@@ -780,6 +780,7 @@
 	border-top: none;
 }
 
+
 .mobile .theFirstDiv p {
    position: absolute;
 	 top: 0px;
@@ -972,7 +973,7 @@
 		  padding-bottom: 200px !important;
 		}
 
-    #bigNav ul li a {
+    #bigNav li a {
 			 text-decoration: none;
 			 color: white;
 		}

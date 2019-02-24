@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { bindActionCreators }from 'redux';
 import { connect } from 'react-redux';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import toggleNav from '../actions/togglenav';
 
 class MobileNav extends Component {
@@ -142,10 +142,10 @@ class MobileNav extends Component {
                   </p>
                 </div>
               </div>
-            <li className="nav_headers"><Link to="/publications">PUBLICATIONS</Link></li>
-            <li className="nav_headers"><Link to="/create_publications">Create Publications</Link></li>
-            <li className="nav_headers"><Link to="/admin">STAFFS</Link></li>
-            <li className="nav_headers"><Link to="/">HOME</Link></li>
+            <li className="nav_headers"><NavLink to="/publications" style={{color: 'white', textDecoration: 'none'}}>PUBLICATIONS</NavLink></li>
+            <li className="nav_headers"><NavLink to="/create_publications" style={{color: 'white', textDecoration: 'none'}}>Create Publications</NavLink></li>
+            <li className="nav_headers"><NavLink to="/admin" style={{color: 'white', textDecoration: 'none'}}>STAFFS</NavLink></li>
+            <li className="nav_headers"><NavLink to="/" style={{color: 'white', textDecoration: 'none'}}>HOME</NavLink></li>
           </ul>
         </div>
       </div>

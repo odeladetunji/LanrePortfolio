@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
-import { BrowserRouter, Router, Route, Switch, Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import {Col, Row, Grid} from 'react-bootstrap';
 import toggleNav from '../actions/togglenav';
 import Publications from './publications';
@@ -26,9 +26,9 @@ class Banner extends Component {
                <div className="banner" style={ { backgroundImage: 'url(' + backgroundBannerImg + ')' }} >
                  <div className='bannerCover outer'>
                      <ul className={this.props.showNav} id="bigNav">
-                       <li><Link to="/">HOME</Link></li>
-                       <li><Link to="/create_publications">Create Publication</Link></li>
-                       <li><Link to="/admin">Staffs</Link></li>
+                       <li><NavLink to="/" style={{color: 'white', textDecoration: 'none'}} >Home</NavLink></li>
+                       <li><NavLink to="/create_publications" style={{color: 'white', textDecoration: 'none'}}>Create Publication</NavLink></li>
+                       <li><NavLink to="/admin" style={{color: 'white', textDecoration: 'none'}}>Staffs</NavLink></li>
                        <li id="ourServices">Services
                          <div className="floatingHeader">
                              <div className="leftSection">
@@ -115,7 +115,7 @@ class Banner extends Component {
                                   </div>
                              </div>
                          </div></li>
-                       <li><Link to="/publications">Publications</Link></li>
+                       <li><NavLink to="/publications" style={{color: 'white', textDecoration: 'none'}}>Publications</NavLink></li>
                        <li id="aboutLanre">About
                          <div className="aboutFloating">
                               <div className="leftSection">
