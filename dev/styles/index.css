@@ -814,7 +814,164 @@
 	 width: 100%;
 }
 
+.tabletContact {
+	width: 100%;
+	display: none;
+	position: absolute;
+	top: 80px;
+	left: 0px;
+	background-color: black;
+}
 
+.tabletAbout {
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 80px;
+	text-align: left;
+	background-color: black;
+	display: none;
+}
+
+.aboutLanre {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.tabletAbout .aboutLanre h5 {
+  font-size: 14px;
+	margin-left: 10%;
+	color: orange;
+	text-align: left;
+}
+
+.tabletAbout .aboutLanre p {
+   color: white;
+	 font-size: 14px;
+	 width: 80%;
+	 margin-left: 10%;
+	 text-align: left;
+}
+
+.tabletCont {
+	padding-top: 20px;
+	padding-bottom: 10%;
+}
+
+.tabletCont h5 {
+  color: orange;
+	font-size: 14px;
+	margin-left: 10%;
+	text-align: left;
+}
+
+.tabletCont p {
+	color: white;
+	font-size: 14px;
+	width: 80%;
+	margin-left: 10%;
+	text-align: left;
+}
+
+.tabletCont p:last-child {
+	color: yellow;
+}
+
+.tabletServices {
+  width: 100%;
+	left: 0px;
+	position: absolute;
+	top: 80px;
+	z-index: 7;
+	text-align: left;
+	background-color: black;
+	padding-bottom: 40px;
+	display: none;
+}
+
+.tabletServices .tabletServ {
+	width: 80%;
+	margin-left: 10%;
+	cursor: pointer;
+	padding-bottom: 20px;
+}
+
+.tabletServ p {
+	 color: orange;
+	 font-size: 14px;
+	 margin-bottom: 0px;
+	 padding: 5px;
+}
+
+.tabletServ ul li {
+	list-style-type: none;
+	color: white;
+	width: 100%;
+	display: inline-block;
+	padding: 3px;
+	font-size: 14px;
+	text-align: left;
+	cursor: pointer;
+}
+
+.tabletServ ul {
+	/* border-bottom: 1px solid orange; */
+	padding-bottom: 10px;
+}
+
+.tabletHeader {
+	 background-color: black;
+	 margin-top: 0px;
+}
+
+.tabletHeader .topTabletHeader, .tabletHeader .bottomTabletHeader {
+	 width: 100%;
+}
+
+.tabletHeader .topTabletHeader ul {
+	 width: 100%;
+	 margin-bottom: 0px;
+	 text-align: right;
+	 cursor: pointer;
+
+}
+
+.tabletHeader .bottomTabletHeader ul {
+	width: 100%;
+	margin-bottom: 0px;
+	text-align: right;
+	cursor: pointer;
+	padding-bottom: 10px;
+}
+
+.tabletHeader .topTabletHeader ul li {
+	display: inline-block;
+	padding: 10px;
+	border-bottom: 1px solid orange;
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+.tabletHeaderli {
+	display: inline-block;
+	padding: 10px;
+	color: white;
+	border-bottom: 1px solid orange;
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+.bottomTabletHeader ul li:first-child:hover > .tabletServices {
+  display: block;
+}
+
+.bottomTabletHeader ul li:nth-child(2):hover > .tabletAbout{
+  display: block;
+}
+
+.bottomTabletHeader ul li:nth-child(3):hover > .tabletContact {
+   display: block;
+}
 
 
 @media only screen and (max-width: 768px) {

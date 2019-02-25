@@ -34,6 +34,7 @@ export default (state = null, action) => {
      }
 
      return {
+         tabletHeader: 'off',
          showMobileNav: 'off',
          showContacts: 'off',
          showAbout: 'off',
